@@ -1,0 +1,8 @@
+<button
+  type="button"
+  *ngIf="product && product.price > 700"
+  (click)="onNotify()"
+  style="padding-left:10px"
+>
+  Notify Me
+</button>
